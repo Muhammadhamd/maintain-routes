@@ -12,8 +12,8 @@ router.get("/post/:userId/:postId",(req, res , next)=>{
     res.send("post createad")
 })
 
-// GET     /api/v1/post/:userId/
-router.get("/post/:userId",(req, res , next)=>{
+// GET     /api/v1/post
+router.get("/post",(req, res , next)=>{
     res.send("post createad")
 })
 
